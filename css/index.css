@@ -1,0 +1,125 @@
+.header_top{
+	background: #f5f5f5;
+}
+.safe_view{
+	width: 1206px;
+	margin:0 auto;
+	height:40px;
+	color:#666666;
+	font-size:13px;
+}
+.safe_view a{
+	color:#666666;
+	font-size:13px;
+}
+.safe_view .left{
+	float:left;
+	line-height: 40px;
+}
+.safe_view .left span{
+	margin-left:8px;
+}
+.safe_view .right{
+	float:right;
+	line-height: 40px
+}
+.safe_view .right a{
+	margin:0 8px;
+}
+
+.login{
+	width:48px;
+	display:inline-block;
+	position:relative;
+	text-align:center;
+	border-left:1px solid transparent;
+	border-right:1px solid transparent;
+}
+.clear{
+	clear:both;
+}
+.city{
+	color:#c81623;
+	font-size:16px;
+}
+
+/*登录框*/
+
+.login_box{
+	width: 210px;
+	height: 207px;
+	position:absolute;
+	border:1px solid #dedede;
+	top:40px;
+	left:-1px;
+	display:none;
+	padding:15px 30px 13px 30px;
+	line-height: 28px;
+	text-align:left;
+}
+.login:hover{
+	border-left:1px solid #dedede;
+	border-right:1px solid #dedede;
+	background: white;
+}
+.login:hover a{
+	color:#d70c19;
+}
+.login:hover .login_box{
+	display: block
+}
+.login:hover .cover{
+	display: block
+}
+
+.cover{
+	width:48px;
+	height:1px;
+	background: white;
+	position: absolute;
+	top:40px;
+	left:0px;
+	display:none;
+}
+
+/*输入框*/
+
+.login_box input{
+	height:28px;
+	width:210px;
+	border:1px solid #d9d9d9;
+	text-indent: 10px
+}
+.password{
+	margin-top:10px;
+}
+input.check_code{
+	width: 77px;
+	margin-top:10px;
+	margin-right:5px;
+}
+.auto_login{
+	margin-top:15px;
+}
+.auto_login input{
+	width:13px;
+}
+
+.auto_login input,.auto_login span,.auto_login a{
+	display: inline-block;
+	vertical-align: middle
+}
+.login .auto_login a{
+	margin-left:60px;
+	color:purple;
+	font-weight: bolder
+}
+
+.login p{
+	color:#d70c19;
+}
+
+.login .submit{
+	background: #e60817;
+	color:white;
+}

@@ -1,0 +1,46 @@
+.list{
+     width: 220px;
+     background: #f5f5f5;
+     position: relative;
+
+}
+.list .item{
+	  border-bottom: 1px dashed #e1e1e1;
+      padding: 6px 0;
+      font-size: 0;
+
+}
+.type{
+	  width:104px;
+	  line-height:24px;
+      margin-left:28px; 
+}
+.type a{
+	     color:#535353;
+	     margin: 0 10px;
+	     font-size: 15px;
+}
+.type,.item img{
+	display:inline-block;
+	vertical-align: middle;
+}
+ .item img{
+ 	  margin-left: 24px;
+ }
+.type_content{
+	position:absolute;
+	top: 0;
+	left: 220px;
+	width: 1000px;
+	height: 800px;
+	background: skyblue;
+	font-size:16px;
+   display:none;
+
+}
+.item:hover .type_content{
+	display: block;
+}
+.item a:hover{
+           color: #d70c19;
+}
