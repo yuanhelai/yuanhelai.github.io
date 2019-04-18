@@ -1,0 +1,108 @@
+/* body{
+ 	  background: #ebebeb;
+ }*/
+.content{
+	     position:absolute;
+	     top:68px;
+	     bottom:0px;
+	     left:265px;
+	     right:0px;
+	    /* background:red;*/
+	     overflow: auto;
+	     padding: 10px 10px;
+	     border: 10px solid #ebebeb;
+	     
+
+}
+ .box5{
+ 	  width: 118px;
+ 	  height: 35px;
+ 	  background:#e9e9e9;
+ 	  /*margin:10px 10px;*/
+
+ 	 
+ 	  
+ 	  text-indent:11px;   
+ 	  }
+ 	.box5 a{
+ 		color:#686767;
+ 		line-height:35px; 
+ 	}  
+
+
+ .box5 img,.box5 a{
+ 	     display: inline-block;
+ 	     vertical-align: middle;
+ }
+   .box6{
+   	    width: 118px;
+   	    height: 35px;
+   	    background:#919191;
+   	    margin-left: 137px;
+   	    margin-top:-35px;
+   	    text-indent: 11px;
+   } 
+    .box6 a{
+    	 color:#ffffff;
+    	 line-height:35px; 
+    }
+    .box6 a,.box6 img{
+    	      display: inline-block;
+    	      vertical-align: middle;
+    }
+     .box8{
+     	  margin-top:22px;
+     } 
+      .box8 p{
+      	     color: #333333;
+      	     font-size: 18px;
+      	     font-weight: bolder;
+      }
+      .box9{
+      	    margin-top: 15px;
+      	    width:100%;
+      	    height:50px;
+      	    background:#e5e5e5; 
+      	   /* line-height: 50px;*/
+      	    display:inline-block;
+
+      }
+        .box9a input{
+        	    border:none;
+        	    outline: 0;
+
+
+       }
+
+    .box9a{
+    	     width: 173px;
+    	     height: 30px;
+    	     border:1px solid #cccccc;
+    	     line-height:30px;
+    	     border-radius: 5px;
+    	     margin: 10px 10px;
+    	     position:relative;
+    	     display:block;
+    	     background: #ffffff;
+    	     text-indent:12px; 
+
+    }
+
+    .box9a input{
+    	         margin-left:85px;
+    	         width:76px;
+    	         margin-top:-30px; 
+                 border:none;
+                 outline: 0;
+
+    }
+        
+      .box9a span{
+      	        position: absolute;
+      	        top: 0;
+      	        left:12px;
+      	        color: #333333;
+
+
+      }    
+
